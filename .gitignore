@@ -1,0 +1,98 @@
+# Laravel Standard Ignored Files
+
+# Vendor directory
+/vendor
+
+# Node modules
+/node_modules
+
+# Laravel Mix compiled assets
+/public/build
+/public/hot
+
+# Storage directories
+/public/storage
+/storage/*.key
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.testing
+.env.local
+.env.*.local
+
+# PHPUnit cache
+.phpunit.cache
+.phpunit.result.cache
+
+# Composer lock file
+composer.lock
+/composer-home/*
+
+# NPM/Yarn lock files
+package-lock.json
+yarn.lock
+
+# IDE and Editor folders
+/.idea
+/.vscode
+/.phpstorm.meta.php
+/.zed
+/.fleet
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Laravel-specific cache
+/bootstrap/cache/*.php
+/storage/*.php
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# PHP Actor
+.phpactor.json
+
+# PHPUnit temporary files
+.phpunit.result.cache
+
+# Laravel Sail docker files
+/docker-compose.yml
+/.env.docker
+
+# Miscellaneous
+auth.json
+Homestead.yaml
+Homestead.json
+
+# internachi/modular specific
+# Ignore storage and vendor directories within each module
+/Modules/*/storage
+/Modules/*/vendor
+
+# If internachi/modular creates any specific cache or temporary directories, add them here
+# Example:
+# /Modules/*/cache
+# /Modules/*/temp
+
+# Ignore built assets if using frontend build tools
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Ignore any other directories or files specific to your setup
